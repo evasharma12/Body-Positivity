@@ -1,0 +1,106 @@
+#title{
+    background-color: #fee0cc;
+}
+#logo-img{
+    position: absolute;
+    border-radius: 100%;
+    width: 5%;
+    top: 1%;
+    left: 1%;
+}
+
+.title-heading{
+    z-index: 1;
+position: absolute;
+font-family: 'PT Serif', serif;
+top : 20%;
+left: 25%;
+
+}
+#title-heading{
+    font-style: italic;
+    font-weight: 500;
+    font-size: 3rem;
+}
+#title-parah{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.title-img{
+padding: 6% 20% 3% 40%;
+
+}
+
+#title-img{
+    width: 500%;
+}
+
+
+/* Intro section */
+#intro{
+    text-align: justify;
+    margin: 5% 20%;
+}
+#intro-heading{
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom:5% ;
+}
+#intro-parah{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+/* Risks section */
+
+#risks, #rewards, #conclusion{
+    text-align: justify;
+    margin: 10% 20%;
+    border : 3px solid #fee0cc;
+    padding: 5% 10%;
+}
+.risks-heading{
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom:5% ;
+}
+.risks-subhead{
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    
+    margin-bottom:5% ;
+}
+
+.risks-parah{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 5%;
+}
+
+
+@media (max-width: 970px)and (min-width: 840px){
+    .title-heading{
+        z-index: 1;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        }
+        
+}
+@media(max-width: 840px){
+    .title-heading{
+        position: static;
+        margin-top: 10%;
+        text-align: center;
+        
+        }
+        #title-img{
+            width: 0;
+        }
+}

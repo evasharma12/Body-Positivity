@@ -1,0 +1,35 @@
+body{
+    background-image: url('https://i.pinimg.com/564x/a4/a4/2f/a4a42ff50a931c45c55a41e34ec6c4e6.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    
+}
+#form1{
+    text-align: center;
+    margin: 0 30%;
+    font-family: 'Montserrat', sans-serif;
+}
+.email{
+    text-align: left;
+}
+.form1{
+    padding-top: 50%;
+    padding-bottom: 57%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.form-control{
+    border-radius: 0;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid black;
+    
+    background: transparent;
+    margin-bottom: 5%;
+    outline: none;
+}
+.btn{
+    
+    margin-top: 3%;
+}

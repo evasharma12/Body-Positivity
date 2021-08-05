@@ -1,0 +1,120 @@
+body{
+    margin: 5% 10% 0 10%;
+    background-image: url('https://i.pinimg.com/564x/76/59/f0/7659f062c58bad6293a666383b2dc462.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Q1{
+    padding: 3% 5%;
+    background-image: url('https://i.pinimg.com/564x/8b/dd/03/8bdd03c68807248d533c03bcdeaac4d0.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin-left: 0;
+    border-radius: 10%;
+    
+    
+}
+.question{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.Q2{
+    padding: 3% 5%;
+    background-image: url('https://i.pinimg.com/564x/ec/ca/92/ecca924e3435fa7b23f436e37a21134c.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 15%;
+    border-radius: 10%;
+    
+    visibility: hidden;
+    
+}
+
+.Q3{
+    padding: 3% 5%;
+    background-image: url('https://i.pinimg.com/564x/d5/74/9d/d5749d4621bab000bdb33adb1981fafb.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 30%;
+    border-radius: 10%;
+    
+    visibility: hidden;
+    
+}
+.Q4{
+    padding: 3% 5%;
+    background-image: url('https://i.pinimg.com/564x/61/ef/91/61ef9167b80f79b0121fb6b39fb25951.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 50%;
+    border-radius: 10%;
+    
+    visibility: hidden;
+    
+}
+
+footer{
+    padding: 5%;
+    background-image: url('https://i.pinimg.com/564x/0b/41/ec/0b41ecaeb586d46d079911f2caa95918.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 10%;
+    
+    margin-top: 90%;
+    visibility: hidden;
+    
+}
+#logo-img{
+    width: 7%;
+    border-radius: 100%;
+    margin-right: 5%;
+}
+.style-five{
+    visibility: hidden;
+}
+.visibility{
+    visibility: visible;
+}
+#footer-parah{
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+@media (max-width: 1190px){
+    .Q1, .Q2, .Q3, .Q4, footer{
+        position: static;
+        margin: 5% 5% 0 5%;
+        border: 0px;
+    }
+    .style-five{
+        visibility: visible;
+    }
+    footer{
+        margin-bottom: 10%;
+    }
+}
+
+

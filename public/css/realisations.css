@@ -1,0 +1,60 @@
+#title{
+    background-image: url('https://i.pinimg.com/564x/72/4c/b3/724cb3712cdff4f12d9e1a80888fa628.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.title-row{
+    padding: 5% 10%;
+}
+#title-img{
+    width: 50%;
+    border-radius: 100%;
+}
+#title-heading{
+    font-style: italic;
+    margin-top: 5%;
+    font-size: 3rem;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+}
+
+/* Conclusion section */
+#intro{
+    border: 3px solid #ffcff1;
+    padding: 5% 10%;
+    text-align: justify;
+    margin: 10% 20% 0 20%;
+}
+#intro-heading{
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom:5% ;
+}
+#intro-parah{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.goback{
+    margin: 1% 20%;
+    text-align: right;
+}
+.icon{
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.link{
+    color: black;
+}
+.button:hover{
+    background-color: #ffcff1;
+    color: black;
+}
+.link:hover{
+    color: black;
+}

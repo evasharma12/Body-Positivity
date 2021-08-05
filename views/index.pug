@@ -1,0 +1,305 @@
+doctype html
+head
+  title
+    | Body shaming
+  // Bootstrap link
+  link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm' crossorigin='anonymous')
+  // JQuery link
+  script(src='https://code.jquery.com/jquery-3.2.1.slim.min.js' integrity='sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN' crossorigin='anonymous')
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q' crossorigin='anonymous')
+  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl' crossorigin='anonymous')
+  // Google fonts
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(href='https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans:wght@300;500;700&family=PT+Serif&display=swap' rel='stylesheet')
+  link(rel='preconnect' href='https://fonts.googleapis.com')
+  link(rel='preconnect' href='https://fonts.gstatic.com' crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap' rel='stylesheet')
+  // CSS stylesheet
+  link(rel='stylesheet' href='/css/style.css')
+  script(src='https://kit.fontawesome.com/0dbe475b5e.js' crossorigin='anonymous')
+section#bg-img1
+  // Title
+  section#title
+    .container-fluid
+      img#logo-img(src='/images/body shame.png')
+      // Nav Bar
+      nav.navbar.navbar-expand-lg.navbar-light
+        a.navbar-brand(href='') Shame
+        button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarSupportedContent.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto
+            li.nav-item
+              a.nav-link(href='#stats') Articles
+            li.nav-item
+              a.nav-link(href='#form') Survey
+            li.nav-item
+              a.nav-link(href='#support') Support
+            li.nav-item
+              a.nav-link(href='#footer') Contact
+      .row
+        .title-box.col-lg-6
+          h1.big-heading
+            | &apos;Embrace the way your body looks since it is a combination of your
+            | parents&apos;
+            | DNA.&apos;
+        .title-box.col-lg-6
+          img.title-image(src='images/title-image.png' alt='iphone-mockup')
+  // Stats and boxes
+  section#stats
+    h2.stats-heading
+      | Approximately 91% of people are unhappy with their bodies and resort to dieting to achieve their ideal
+      | body shape.
+    .stats.row
+      .stats-grid.col-lg-3.col-md-4
+        a(target='blanck' style='color: #fff' href='/article1')  What is body shaming?
+      .stats-grid.col-lg-3.col-md-4
+        a(target='blanck' style='color: #fff' href='article2')  How to stop body shaming?
+      .stats-grid.col-lg-3.col-md-4
+        a(target='blanck' style='color: #fff' href='article3')
+          | When confronted with body shaming
+          | ...
+      .stats-grid.col-lg-3.col-md-4
+        a(target='blanck' style='color: #fff' href='article4')
+          | Body Shaming in an Age of Social
+          | Media
+      .stats-grid-longer.col-lg-12.col-md-8
+        .healthy-families.row
+          .healthy-families-col.col-lg-8
+            a(target='blanck' style='color: #fff' href='/healthyfamilies')
+              h3#healthy-families Healthy families
+              p#healthy-families-parah(style='color: black;')
+                | Keep your child safe from body
+                | shaming by adopting some easy and basic habits.
+          .healthy-families-col.col-lg-4
+            img#healthy-family-image(src='images/family.jpg')
+  hr
+  // Quote
+  section#quote
+    .quote.row
+      .quote-col.col-lg-10.col-md-8
+        h3
+          i.fas.fa-heartbeat
+          |  &apos;You have always been critisizing yourself for years and it
+          |                         hasn&apos;t worked. Try approving of yourself and see what happens.&apos; 
+          i.fas.fa-heartbeat
+      .quote-col.col-lg-2.col-md-4
+        iframe(src='https://giphy.com/embed/d7rEEfgSHfhRtF3Z3E' frameborder='0')
+// Form section
+section#form
+  h2#form-heading
+    | Take your own survey ...
+  p#form-parah
+    | - Sometimes we dont realise things buried deep down inside of us before we say them out
+    | aloud.
+  p#form-parah2
+    | Answer a few questions and you will realise some beautiful facts about your own body which
+    | you already knew but never thought of.
+  a(href='/form1')
+    button.btn.btn-outline-dark(style="font-weight: bold;\
+    font-family: 'Montserrat', sans-serif;\
+    ") Get started ...
+section#bg-img2
+  // Support
+  section#support
+    h3#support-heading
+      | Support and Contacts
+    .support-row.row
+      .support-col.col-lg-2.col-md-3.col-sm-6
+        a(target='black' href='https://www.rcpsych.ac.uk/')
+          img(style='width: 50%;' src='images/Royal college of psychiatrists.svg')
+      .support-col.col-lg-2.col-md-3.col-sm-6
+        a(target='black' href='https://www.feministsact.com/')
+          img(style='width: 50%;' src='images/feminists-act.svg')
+      .support-col.col-lg-2.col-md-3.col-sm-6
+        a(target='black' href='https://thebodypositive.org/')
+          img(style='width: 50%;' src='images/the body positive.png')
+      .support-col.col-lg-2.col-md-3.col-sm-6
+        a(target='black' href='https://www.cybersmile.org/')
+          img(style='width: 50%;' src='images/Cybersmile-Logo-Icon.png')
+      .support-col.col-lg-2.col-md-3.col-sm-6
+        a(target='black' href='https://www.wearyourvoicemag.com/')
+          img(style='width: 50%;' src='images/wyv-logo-1.png')
+      .support-col.col-lg-2.col-md-3.col-sm-6
+        a(target='black' href='https://movemeantfoundation.org/')
+          img(style='width: 50%;' src='images/MVMT_Black_Tag.jpg')
+      .support-col.col-lg-2.col-md-3.col-sm-6
+        a(target='black' href='https://naafa.org/')
+          img(style='width: 50%;' src='images/naafa_brochure_logo-4in-72d.jpg')
+      .support-col.col-lg-2.col-md-3.col-sm-6
+        a(target='black' href='https://sangath.in/')
+          img(style='width: 50%;' src='images/sangath.png')
+      .support-col.col-lg-2.col-md-3.col-sm-6
+        a(target='black' href='https://www.mindsfoundation.org/')
+          img(style='width: 70%;' src='images/minds foundation.png')
+      .support-col.col-lg-2.col-md-3.col-sm-6
+        a(target='black' href='https://yourewonderfulproject.org/')
+          img(style='width: 100%;' src='images/ywpwidelogo.png')
+      .support-col.col-lg-2.col-md-3.col-sm-6
+        a(target='black' href='https://www.adiosbarbie.com/#results')
+          img(style='width: 50%;' src='images/Screenshot (393).png')
+      .support-col.col-lg-2.col-md-3.col-sm-6
+        a(target='black' href='https://www.bodyconfidencecanada.com/')
+          img(style='width: 50%;' src='images/body confidence.webp')
+  // Surgeries
+  section#surgeries
+    a(target='black' href='/surgeries' alt='article')
+      .surgeries.row
+        .surg-col.col-lg-12.col-mg-6
+          h2#surg-heading
+            | Surgeries &amp; Consequences!
+          p#surg-parah
+            | Thinking about a cosmetic surgery?
+            br
+            | Read the article and learn about some
+            |                             of
+            |                             the
+            |                             potent consequences of cosmetic surgeries.
+    //
+      <div class = "surg-col col-lg-4 col-mg-6">
+      </div>
+  hr
+  // Personal Blogs
+  section#personal-blogs
+    #carouselExampleControls.carousel.slide(data-ride='false')
+      .carousel-inner
+        .carousel-item.active
+          p
+            | &ldquo;I got badly bullied when I was a new student in elementary school, starting in kindergarten
+            | when
+            | I was five and lasting until I was nine years old. One girl told me every day during recess,
+            | &lsquo;You&rsquo;re so skinny that I can see right through you!&rsquo; I was a shy child and did not know how
+            | to
+            | handle this bullying, especially the name-calling. I was sad, and I believed that there was
+            | something very wrong with me.&rdquo;
+          img.testimonial-image(src='images/family.jpg' alt='dog-profile')
+          em &ndash; Janet Ruth Heller.
+        .carousel-item
+          p.testimonial-text
+            | &ldquo;For years I have been passionate about exercise and fitness, but I
+            | felt
+            | uncomfortable talking about it. I have a tall, slender build and I was nervous about being
+            | judged. A senior physician that was supervising me once commented under his breath
+            | suggesting
+            | that I had an eating disorder. I am not sure if he meant for me to hear it, but I did, and
+            | it
+            | hurt.&rdquo;
+          img.testimonial-image(src='images/family.jpg' alt='lady-profile')
+          em &ndash; Dr. Nina Watson
+        .carousel-item
+          p.testimonial-text
+            | &ldquo;After five years of dating, my boyfriend told me he did not want to date me anymore because
+            | I
+            | was fat. I was so hurt, and for the next ten years, I was on a weight loss roller coaster
+            | and a
+            | downward spiral of self-body shaming. In 2015, I decided to stop dealing with F.A.T. (Fear,
+            | Attitude and Toxic people). With that decision, I lost over 80 pounds and wrote a book about
+            | my
+            | journey.&rdquo;
+          img.testimonial-image(src='images/family.jpg' alt='lady-profile')
+          em &ndash; Leticia A. Mathis
+        .carousel-item
+          p.testimonial-text
+            | &ldquo;&lsquo;Look! It&rsquo;s a monkey!&rsquo; I was in middle school at the time. My dark hair and features were
+            | pointed out by two boys in class.&rdquo;
+          img.testimonial-image(src='images/family.jpg' alt='lady-profile')
+          em  &ndash; Steph, founder of Mythical Enterprises
+        .carousel-item
+          p.testimonial-text
+            | If a person hasn&rsquo;t been brought up in an environment which nourishes one&rsquo;s self esteem,
+            | these
+            | comments and remarks during the teenage and early 20s really takes a toll. It latches on to
+            | you.
+            | Everywhere you look, someone smiles or giggles in public, and you tend to become very self
+            | conscious. This can cause you to withdraw more from people, or become reticent in general.
+          img.testimonial-image(src='images/family.jpg' alt='lady-profile')
+          em &mdash; Karthik, software developer
+        .carousel-item
+          p.testimonial-text
+            | &ldquo;After years of being shamed for the way I look, it becomes deeply ingrained in your mind
+            | that
+            | fat is bad, and that takes so much effort to erase.&rdquo;
+          img.testimonial-image(src='images/family.jpg' alt='lady-profile')
+          em &ndash; Anonymus
+        .carousel-item
+          p.testimonial-text
+            | &quot;If you lose weight, someone will love you&quot; - nan #TheySaid
+            br
+            | Haha my boyfriend loves me
+            |                             for
+            |                             who I am and I&apos;m still the same weight.&quot;
+          img.testimonial-image(src='images/family.jpg' alt='lady-profile')
+          em &ndash; Katy
+      a.carousel-control-prev(href='#carouselExampleControls' role='button' data-slide='prev')
+        span.carousel-control-prev-icon
+        span.sr-only Previous
+      a.carousel-control-next(href='#carouselExampleControls' role='button' data-slide='next')
+        span.carousel-control-next-icon
+// Discussion
+section#discussion
+// footer
+section#footer-section
+  footer#footer
+    .footer-row.row
+      .footer-col1.col-lg-4
+        h2#footer-heading Embrace your body
+        p#footer-parah No one deserves to make you feel bad about yourself.
+        form(action = "." method = "POST" id="footer-form")
+          .row
+            .col-lg-6.col-md-6
+              .form-group.firstname
+                label(for='exampleInputEmail1') First Name
+                input#exampleInputFirstName.form-control.form1(type='text' aria-describedby='emailHelp' name = "FirstName")
+            .col-lg-6.col-md-6
+              .form-group.lastname
+                label(for='exampleInputPassword1') Last Name
+                input#exampleInputLastName.form-control.form1(type='text' name = "LastName")
+          .form-group.email
+            label(for='exampleInputEmail1') Email*
+            input#exampleInputEmail1.form-control.form1(type='email' aria-describedby='emailHelp' name = "email")
+          button.btn.submit.btn-light.btn-lg.btn-block(type='submit')
+            span
+            span
+            span
+            span
+            |                             Submit
+      .footer-col2.col-lg-8
+        .container
+          .footer-col-row.row
+            .footer-col-col.col-lg-6.col-md-6
+              h2#footer-heading2 Contact us
+              p#footer-parah2
+                | Email us for any queries and help.
+              p#myinfo
+                | Email: inquesto2003@gmail.com
+                br
+                |                                     Phone: 9817593606
+              p#links
+                a(target='blanck' href='https://www.instagram.com/evasharma12/')
+                  i.footer-icon.first.fab.fa-instagram
+                a(target='blanck' href='mailto:inquesto2003@gmail.com')
+                  i.footer-icon.fas.fa-envelope
+                a(target='blanck' href='https://github.com/evasharma12')
+                  i.footer-icon.fab.fa-github
+                a(target='blanck' href='https://www.linkedin.com/in/eva-sharma-94aab5207/')
+                  i.footer-icon.fab.fa-linkedin
+            .footer-col-col.col-lg-6.col-md-6
+              form(action = "." method = "POST" id="footer-form2")
+                .row
+                  .col-lg-6.col-md-6
+                    .form-group.firstname2
+                      label(for='exampleInputEmail1') First Name
+                      input#exampleInputFirstName.form-control.form2(type='text' aria-describedby='emailHelp' name = "FirstName")
+                  .col-lg-6.col-md-6
+                    .form-group.lastname2
+                      label(for='exampleInputPassword1') Last Name
+                      input#exampleInputLastName.form-control.form2(type='text' name = "LastName")
+                .form-group.email2
+                  label(for='exampleInputEmail1') Email*
+                  input#exampleInputEmail1.form-control.form2(type='email' aria-describedby='emailHelp' name = "email")
+                .form-group.email2
+                  label(for='exampleInputEmail1') Message
+                  input#exampleInputEmail1.form-control.form2(type='text' aria-describedby='emailHelp' name = "message")
+                button.btn.submit2.btn-dark.btn-lg.btn-block(type='submit')
+                  | Submit
+    p &copy; Copyright 2021 Shame

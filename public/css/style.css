@@ -1,0 +1,423 @@
+
+.big-heading{
+    margin-top: 20%;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Courgette', cursive;
+    font-weight: 500;
+    color: black
+}
+#logo-img{
+    position: absolute;
+    width: 5%;
+    top: 5%;
+    left: 3%;
+    border-radius: 100%;
+}
+
+#title{
+    background-image: url("https://i.pinimg.com/564x/e8/30/b3/e830b3dedd7b6e79979b0d72b5c4a11f.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size: cover;
+    /* background-color: #E0FFFF;
+    background-color: #FFF7E9; */
+
+}
+
+.container-fluid{
+    
+    padding: 3% 10% 3% 10%;
+}
+
+
+
+.navbar{
+    padding: 0 0 0 0 ;
+}
+/* Navigation Bar */
+.navbar-brand{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    
+}
+
+.nav-item{
+    padding: 0px 18px 0px 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.title-row{
+    padding: 5% 20% 30% 20%;
+}
+.title-text{
+    
+    padding: 3%;
+    
+    background-color: #2a52be;
+}
+.title-image{
+    
+    padding-left: 10%;
+    padding-bottom: 5%;
+    width: 80%;
+    
+}
+
+/* Stats sections */
+
+#stats{
+    margin-top: 3%;;
+    padding: 3% 15% 1% 15%;
+    
+}
+.stats-heading{
+    font-size: 2.5rem;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    /* font-weight: 700; */
+    /* text-align: center; */
+    
+    
+}
+
+
+.stats-grid{
+    text-align: left;
+    color: #fff;
+    background-color: #630E22;
+    margin-top: 5%;
+    padding: 3%;
+    font-size: 1.5rem;
+    border:10px  solid white;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    
+}
+.stats-grid-longer{
+    text-align: left;
+    color: black;
+    background-color:#FFE4E1;
+    margin-top: 10px;
+    padding: 3%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    border:10px  solid white;
+    
+}
+#healthy-families{
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: black;
+}
+
+#healthy-family-image{
+
+    width: 60%;
+}
+
+
+
+/* Quote section */
+
+#quote{
+    background-color: #ffb6c1;
+    margin-top: 3%;;
+    padding: 3% 15% 3% 15%;
+    font-family: 'Courgette', cursive;
+    color:	#777575;
+}
+
+
+/* Form section */
+
+
+
+#form{
+    background-image: url("https://i.pinimg.com/564x/9d/aa/79/9daa791cde80e37514b5cf083ae5f44d.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size: cover;
+
+    padding: 3% 15%;
+}
+
+#form-heading{
+    
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 3%;
+}
+
+#form-parah{
+    
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#form-parah2{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+/* Support section */
+
+#support{
+    
+    margin-top: 0;
+    background-color: #fff;
+    padding: 3% 15% 3% 15%;
+    
+}
+
+#support-heading{
+    
+    margin-bottom: 1%;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.support-row{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 4%;
+}
+
+.support-col{
+    margin-bottom: 3%;
+    
+    
+}
+
+
+/* Surgeries section */
+
+#surgeries{
+    background-color: #fee0cc;
+}
+.surgeries{
+    margin-top: 3%;
+    padding: 3% 15% 3% 15%;
+}
+
+#surg-heading{
+    margin-bottom: 1%;
+    font-family: 'PT Serif', serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: black;
+}
+#surg-parah{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+/* Personal blogs section */
+
+#personal-blogs{
+    margin-top: 1%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: justify;
+    background-color: #630E22;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+
+/* Footer section */
+/* footer section */
+
+.footer-col1{
+    background-color: black;
+    font-family: 'PT Serif', serif;
+    color: #fff;
+
+}
+#footer-heading{
+    padding-top: 15%;
+    font-size: 2rem;
+    color: #fff;
+}
+#footer-parah{
+    padding: 3% 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+#footer-form{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 0 20%;
+}
+.firstname, .lastname, .email{
+    text-align: left;
+
+}
+.form-control{
+    border-radius: 0;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    
+}
+.form1{
+    color: white
+}
+.email{
+    text-align: left;
+    margin-top: 7%;
+}
+.submit{
+    margin: 20% 0 20% 0;
+    border-radius: 0;
+}
+
+/* Footer column 2 */
+.form2{
+    border-radius: 0;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+.email2{
+    text-align: left;
+    margin-top: 7%;
+}
+
+.footer-col2{
+    border: 1px solid black;
+    padding-left: 5%;
+    text-align: left;
+    background-color: #fff;
+    font-family: 'PT Serif', serif;
+    color: black;
+
+}
+#footer-heading2{
+    padding-top: 15%;
+    font-size: 2rem;
+    color: black;
+}
+#footer-parah2{
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: black;
+}
+#myinfo{
+    margin-top: 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#links{
+    margin-top: 43%;
+    text-align: left;
+    font-size: 1.5rem;
+    color: black;
+}
+.footer-icon{
+    margin: 7%;
+    color: black;
+}
+.first{
+    margin-left: 0;
+}
+
+#footer-form2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding:15% 30% 30% 0;
+}
+.submit2{
+    margin: 37% 0 40% 0;
+    background-color: black;
+    border-radius: 0;
+}
+
+#footer-section{
+    background-color: #fff;
+}
+#footer{
+    /* padding: 5% 15%; */
+    text-align: center;
+    
+}
+
+
+#bg-img1{
+    background-image: url("https://image.freepik.com/free-photo/white-heart-hands-little-girl_169016-3520.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size: cover;
+}
+#bg-img2{
+    background-image: url("https://as1.ftcdn.net/jpg/02/84/59/72/500_F_284597294_e3dUZ2pQpo2XaXuUHwnlDqVaq2IN5jBZ.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size: cover;
+}
+
+
+@media (max-width:935px){
+    .big-heading{
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 0;
+    }
+    .title-text{
+        border-radius: 10%;
+        padding: 3%;
+        position: static;
+        background-color: black;
+        top: 25%;
+        left: 42%;
+    }
+    
+}
