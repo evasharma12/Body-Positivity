@@ -216,24 +216,31 @@
 
 #surgeries{
     background-color: #fee0cc;
+    text-decoration: none;
 }
 .surgeries{
     margin-top: 3%;
     padding: 3% 15% 3% 15%;
+    text-decoration: none;
 }
 
+#surgeries a:hover {
+    color: transparent;
+  }
 #surg-heading{
     margin-bottom: 1%;
     font-family: 'PT Serif', serif;
     font-weight: 700;
     font-size: 2.5rem;
     color: black;
+    text-decoration: none;
 }
 #surg-parah{
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
+    text-decoration: none;
 }
 /* Personal blogs section */
 
