@@ -180,6 +180,13 @@
     font-weight: bold;
     
 }
+#form div{
+    text-align: center;
+}
+#form div .btn{
+    width: 10vw;
+    border-radius: 20px;
+}
 /* Support section */
 
 #support{
